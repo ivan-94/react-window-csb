@@ -1,0 +1,38 @@
+{
+  "name": "react-window-csb",
+  "description": "react-window 🤝 react-custom-scrollbars",
+  "version": "0.1.1",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": "https://github.com/ivan-94/react-window-csb.git",
+  "author": "carney520 <carney520@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "@types/react-custom-scrollbars": "^4.0.6",
+    "@types/react-virtualized-auto-sizer": "^1.0.0",
+    "@types/react-window": "^1.8.1",
+    "microbundle": "^0.11.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "react-custom-scrollbars": "^4.2.1",
+    "react-virtualized-auto-sizer": "^1.0.2",
+    "react-window": "^1.8.5"
+  }
+}
